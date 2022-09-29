@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustChat - Chatting Room</title>
+    <!-- defer means that we want to load the javascript after loading the DOM (i.e. after loading the HTML and CSS files)  -->
+    <script defer src="https://boiling-sea-62901.herokuapp.com/socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="topNavBar">
+        <img src="./chatImage.png" alt="logo">
+        <h1>JustChat</h1>
+    </nav>
+    <div class="container"></div>
+    <div class="send">
+        <form action="#" id="send-message">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Message" required>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+    <div class="footerdiv">
+        <footer>
+            Made with &#128151; by Aman Singhal<br/> <br/>
+            <span>
+            <a href="https://www.linkedin.com/in/aman-singhal-5340b4227/">
+                <img alt="" src="./linkedin_logo.png" class="logosclass"></img>
+            </a>
+
+            <a href="https://github.com/singhalaman23">
+                <img alt="" src="./github_logo.png" class="logosclass"></img>
+            </a>
+            </span>
+            <span>All Rights Reserved</span> 
+            <span class="samples">(For Github repo of JustChat, click -
+            <a class="samplesLink" href="https://github.com/singhalaman23/JustChat">here
+            </a>)
+            </span> 
+        </footer>
+    </div>
+
+</body>
+</html>
