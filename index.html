@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JustChat - Chatting Room</title>
-    <!-- defer means that we want to load the javascript after loading the DOM (i.e. after loading the HTML and CSS files)  -->
+    <!-- defer means that we want to load the javascript after/along with loading the DOM (i.e. after/along with loading the HTML and CSS files)  -->
     <script defer src="https://boiling-sea-62901.herokuapp.com/socket.io/socket.io.js"></script>
     <script defer src="./client.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -15,6 +15,7 @@
         <img src="./chatImage.png" alt="logo">
         <h1>JustChat</h1>
     </nav>
+    <!-- below container will change dynamically according to the users joined/left and messages send -->
     <div class="container"></div>
     <div class="send">
         <form action="#" id="send-message">
@@ -25,9 +26,9 @@
 
     <div class="footerdiv">
         <footer>
-            Made with &#128151; by Aman Singhal<br/> <br/>
+            Made with &#9825; by Aman Singhal<br/> <br/>
             <span>
-            <a href="https://www.linkedin.com/in/aman-singhal-5340b4227/">
+            <a href="https://www.linkedin.com/in/singhalaman23/">
                 <img alt="" src="./linkedin_logo.png" class="logosclass"></img>
             </a>
 
