@@ -3,7 +3,7 @@
 
 // const socket = io('http://localhost:8000',{transports:['websocket']});       //for running in local computer.
 //the nodejs backend of this website is deployed on Heroku.
-const socket = io('https://boiling-sea-62901.herokuapp.com/',{transports:['websocket']});   //connecting backend with frontend
+const socket = io('https://justchat-backend.onrender.com',{transports:['websocket']});   //connecting backend with frontend
 const form = document.getElementById('send-message');
 const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector(".container");
